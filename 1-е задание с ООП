@@ -29,9 +29,9 @@ public class Animal {
         System.out.println(name + " после выходных весит " + weight );
     }
     public void rename(String newName) {
-        System.out.println(name + " теперь зовут ");
+        System.out.print(name + " теперь зовут ");
         name = newName;
-        System.out.print(name);
+        System.out.println(name);
     }
     public void display(){
         System.out.println("Тип: " + type + "\n" + "Имя: "
