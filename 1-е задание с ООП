@@ -1,0 +1,42 @@
+
+public class Animal {
+    String type;
+    String name;
+    int age;
+    double weight;
+    boolean isFly;
+    boolean isWalk;
+    boolean isSwim;
+
+    public Animal (String type, String name, int age, double weight,    boolean isFly, boolean isWalk, boolean isSwim) {
+    this.type = type;
+    this.name = name;
+    this.age = age;
+    this.weight = weight;
+    this.isFly = isFly;
+    this.isWalk = isWalk;
+    this.isSwim = isSwim;
+
+}
+    public Animal() {
+
+    }
+
+
+
+    public void holiday(int days) {
+    weight = weight + days * 0.1;
+        System.out.println(name + " после выходных весит " + weight );
+    }
+    public void rename(String newName) {
+        System.out.println(name + " теперь зовут ");
+        name = newName;
+        System.out.print(name);
+    }
+    public void display(){
+        System.out.println("Тип: " + type + "\n" + "Имя: "
+                + name + "\n" + "Возраст: " + age + "\n" + "Вес: "
+                + weight + "\n" + "Он летает: " + isFly + "\n" + "Он ходит: "
+                + isWalk + "\n" + "Он плавает: " + isSwim);
+    }
+}
