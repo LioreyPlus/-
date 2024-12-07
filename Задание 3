@@ -1,3 +1,4 @@
+
 public class Animal {
     private String type;
     private String name;
@@ -52,26 +53,26 @@ public class Animal {
     public boolean isSwim(){
         return isSwim;
     }
-    public void setName(String _name){
-        name = _name;
+    public void setName(String name){
+        this.name = name;
     }
-    public void setType(String _type){
-        type = _type;
+    public void setType(String type){
+        this.type = type;
     }
-    public void setAge(int _age){
-        age = _age;
+    public void setAge(int age){
+        this.age = age;
     }
-    public void setWeight(double _weight){
-        weight = _weight;
+    public void setWeight(double weight){
+        this.weight = weight;
     }
-    public void setFly(boolean _isFly){
-        isFly = _isFly;
+    public void setFly(boolean isFly){
+        this.isFly = isFly;
     }
-    public void setWalk(boolean _isWalk){
-        isWalk = _isWalk;
+    public void setWalk(boolean isWalk){
+        this.isWalk = isWalk;
     }
-    public void setSwim(boolean _isSwim){
-        isSwim = _isSwim;
+    public void setSwim(boolean isSwim){
+        this.isSwim = isSwim;
     }
 
     public void holiday(int days) {
